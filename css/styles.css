@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/*====universal====*/
+.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+/*===end universal===*/
+
+/*===navbar===*/
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: rgba(17, 17, 17, .5);
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #f8512f;
+  background-color: rgba(17, 17, 17, .2);
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fcfcfc;
+
+}
+
+nav.navbar {
+  position: absolute;
+  top: 100;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-brand>img {
+  margin-top: -7px;
+}
+/*===end navbar===*/
+
+/*====carousel=====*/
+.wrap {
+  min-height: 100vh;
+}
+
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+  padding-bottom: 140px;
+}
+
+.carousel-inner .item {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main_img1 {
+background-image: url('../img2/weedWall.png');
+}
+
+.main_logo {
+  max-height: 300px;
+}
+
+.main_img2 {
+background-image: url('../img2/dabLogoV1Final.png');
+}
+
+.btn-danger {
+color: #fff;
+background-color: #f8512f;
+border-color: transparent;
+}
+
+.btn-danger:hover {
+  background-color: #d34326;
+  border-color: transparent;
+}
+
+.p-text {
+  font-size: 16px;
+  color: #f7f7f7;
+}
+
+.p-text2 {
+  font-size: 4ems;
+  color: #f7f7f7;
+  background-color: rgba(55, 0, 0, 0.5);
+  border: 2px solid  rgba(22, 0, 0, 0.8);
+}
+
+.h1class {
+  font-size: 6ems;
+  color: #0a0a0a;
+}
+
+.main_img3 {
+  background-image: url('../img2/dabsWall.jpg');
+}
+/*====carousel ends=====*/
+
+/*====live======*/
+#live, #merch {
+  min-height: 600px;
+}
+
+.live_row{
+  margin-top: 30px;
+}
+
+.live {
+  font-family: 'Lobster',  serif;
+  color: #f8512f;
+  font-size: 6em;
+
+}
+
+.live_text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+
+
+#live p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+/*====Our Story ends======*/
+
+/*===review===*/
+#merch {
+  background-image: url('../img2/waxWall2.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.center {
+  background-color: rgba(20, 20, 20, .6);
+  margin-top: 145px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fresno-bee {
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
+  color: #f8512f;
+
+}
+
+.review {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+
+}
