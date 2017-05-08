@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=New+Rocker');
 
 /*====universal====*/
 .container-fluid{
@@ -9,7 +8,16 @@
 }
 
 .text-shadow {
-  text-shadow: 1px 1px 5px #0a0a0a;
+  text-shadow: 2px 2px 5px #0a0a0a;
+}
+
+.text-shadow2 {
+ text-shadow: 2px 2px 5px #98c126;
+}
+
+body {
+    background-color: #A0A18C;
+    opacity: 0.8;
 }
 /*===end universal===*/
 
@@ -49,11 +57,11 @@ nav.navbar {
 
 /*====carousel=====*/
 .wrap {
-  min-height: 100vh;
+  /*min-height: 100vh;*/
 }
 
 .carousel {
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
 }
 
 .carousel-caption {
@@ -115,32 +123,40 @@ border-color: transparent;
 
 /*====live======*/
 #live, #merch {
-  min-height: 600px;
+  min-height: 700px;
+  background-color: #090B09;
 }
 
 .live_row{
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .live {
-  font-family: 'Lobster',  serif;
-  color: #f8512f;
+  font-family: 'New Rocker', cursive;
+  color: #00A300;
   font-size: 6em;
 
 }
 
-.live_text {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+#live #liveP {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
   font-size: 2em;
   margin-top: 0;
+  color: #E00000;
 }
-
-
 
 #live p {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+}
+
+#live_stream {
+  width: 640px;
+  height: 393px;
+  margin: auto;
+  border: 5px double rgba(255, 0, 0, 0.5);
+  border-radius: 10px;
 }
 /*====Our Story ends======*/
 
@@ -158,10 +174,10 @@ border-color: transparent;
   border-radius: 5px;
 }
 
-.fresno-bee {
-  font-family: 'Lobster', cursive;
+.merch {
+  font-family: 'New Rocker', cursive;
   font-size: 5em;
-  color: #f8512f;
+  color: #00A300;
 
 }
 
